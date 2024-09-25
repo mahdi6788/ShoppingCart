@@ -6,3 +6,11 @@ Global Data management: context
 
 2. Back-end (API): Node + Express
 Data: Mombu
+
+
+
+Packages:
+npm install ... :
+bootstrap
+react-bootstrap
+react-icons
