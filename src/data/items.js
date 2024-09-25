@@ -9,7 +9,7 @@ const productList = [
         id: '2',
         title: 'Product',
         price: 99,
-        image: '../public/images/camera.jpg'
+        image: '../public/images/sunglass.webp'
     },
     {
         id: '3',
