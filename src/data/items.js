@@ -3,25 +3,25 @@ const productList = [
         id: '1',
         title: 'Product',
         price: 99,
-        image: "../public/images/bag.jpg"
+        image: "../images/bag.jpg"
     },
     {
         id: '2',
         title: 'Product',
         price: 99,
-        image: '../public/images/sunglass.webp'
+        image: '../images/sunglass.webp'
     },
     {
         id: '3',
         title: 'Product',
         price: 99,
-        image: '../public/images/denim.jpg'
+        image: '../images/denim.jpg'
     },
     {
         id: '4',
         title: 'Product',
         price: 99,
-        image: '../public/images/highHeel.jpg'
+        image: '../images/highHeel.jpg'
     }
 ]
 
