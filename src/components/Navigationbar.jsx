@@ -23,7 +23,7 @@ function Navigationbar() {
                 className="text-white"
                 onClick={handleOpenModal}>
                     <BsCart className="mx-1"></BsCart>                    
-                    Add to Cart
+                    Cart
                 </Button>
             </Navbar.Collapse>
         </Navbar>
