@@ -3,12 +3,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Navigationbar from './components/Navigationbar'
 import { Container } from 'react-bootstrap'
 import Shop from './pages/Shop'
-
+import CartProvider from './context/CartContext'
 
 function App() {
   
   return (
     <>
+    <CartProvider>
       <Container>
       <Navigationbar />
 
@@ -17,6 +18,7 @@ function App() {
         </Routes>
 
       </Container>
+      </CartProvider>
     </>
   )
 }
