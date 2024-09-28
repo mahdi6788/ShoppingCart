@@ -63,6 +63,8 @@ function CartProvider({children}){
 
             totalAmount += productData.price * product.quantity
         })
+
+        return totalAmount
     }
 
     const contextValues = {
