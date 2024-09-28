@@ -43,9 +43,8 @@ function Navigationbar() {
                         {cart.items.map((item) => (
                              <CartProduct key={item.id} id={item.id} quantity={item.quantity}/>
                         ))}
+                        <h3>Total: {cart.getTotalAmount()}</h3>
                         </>
-
-
                     ): (
                         <p>There is not product</p>
                     )}
